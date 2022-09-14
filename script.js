@@ -31,6 +31,17 @@ close.addEventListener('click', () => {
     rightSide.classList.add('hidden');
 })
 
+// FAQ
+
+const getId = (clickedId) => {
+    const idNumbers = clickedId.match(/(\d+)/)[0]
+    const qId = "#q-" + idNumbers;
+    const questionBox = document.querySelector(qId);
+    questionBox.classList.toggle('hidden')
+    questionBox.classList.toggle('translate-y-[0%]')
+    questionBox.classList.toggle('-translate-y-[100%]')
+}
+
 
 
 

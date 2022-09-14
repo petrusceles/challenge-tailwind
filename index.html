@@ -27,7 +27,7 @@
                         <span class="hamburger-line"></span>
                     </button>
 
-                    <nav id="nav-menu" class="w-1/2 h-full absolute bg-white right-0 z-[999] hidden top-0 lg:bg-transparent lg:flex lg:absolute lg:w-3/4 ">
+                    <nav id="nav-menu" class="w-1/2 h-full fixed bg-white right-0 z-[999] hidden top-0 lg:bg-transparent lg:flex lg:absolute lg:w-3/4 ">
                         <ul class="block py-6 px-2 sm:px-5 md:px-10 lg:flex lg:items-center lg:w-full lg:justify-end">
                             <div class="p-4 xl:px-10 w-full flex justify-between lg:hidden">
                                 <h2 class="font-semibold text-xl">BCR</h2>
@@ -237,7 +237,7 @@
     <!-- Testimonials Section Start -->
 
     <!-- CTA Banner Section Start -->
-    <section id="cta" class="pt-16 pb-20">
+    <section id="cta" class="pt-16">
         <div class="container px-6">
             <div class="flex flex-wrap w-full pt-28 pb-20 px-20 justify-center items-center text-center bg-blue-900 rounded-2xl">
                 <h2 class="w-full font-bold text-2xl pb-6 text-white lg:text-4xl">Sewa Mobil di Sleman Sekarang</h2>
@@ -253,18 +253,129 @@
     <!-- CTA Banner Section End -->
 
     <!-- FAQ Section Start -->
-    <section id="faq" class="pt-16 pb-20">
+    <section id="faq" class="pt-16">
         <div class="container px-6">
             <div class="flex flex-wrap">
-                <div class="w-full text-center">
+                <div class="w-full pb-7 lg:w-5/12 items-center mt-6 px-6 text-center lg:text-start">
                     <h2 class="font-bold text-2xl">Frequently Asked Question</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>      
+                    <p class="font-light leading-relaxed tracking-wider pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing</p>      
+                </div>
+                <div class="w-full flex flex-wrap lg:w-7/12">
+                    <div class="flex flex-wrap w-full mt-6 p-6 rounded-lg border-2 border-zinc-500">
+                        <div class="w-full flex items-center relative">
+                                <p class="w-[97%]">Apa saja syarat yang dibutuhkan?</p>
+                                <div class="w-[18px]">
+                                    <button id="bt-1" onclick="getId(this.id)" class="w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                                    </button>
+                                </div>
+                                <!-- <p class="w-1/12 font-bold text-2xl text-center absolute right-3">-</p> -->
+                        </div>
+                        <div id="q-1" class="pt-3 leading-relaxed text-zinc-600 hidden -translate-y-[100%] transition ease-in-out duration-500">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis eveniet perferendis porro laboriosam eligendi corporis, consequatur veniam itaque, fugit eum aliquam quasi libero asperiores aperiam aliquid, ut harum id?</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-full mt-6 p-6 rounded-lg border-2 border-zinc-500 ">
+                        <div class="w-full flex items-center relative">
+                                <p class="w-[97%]">Apa saja syarat yang dibutuhkan?</p>
+                                <div class="w-[18px]">
+                                    <button id="bt-2" onclick="getId(this.id)" class="w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                                    </button>
+                                </div>
+                                <!-- <p class="w-1/12 font-bold text-2xl text-center absolute right-3">-</p> -->
+                        </div>
+                        <div id="q-2" class="pt-3 leading-relaxed text-zinc-600 hidden -translate-y-[100%] transition ease-in-out duration-500">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis eveniet perferendis porro laboriosam eligendi corporis, consequatur veniam itaque, fugit eum aliquam quasi libero asperiores aperiam aliquid, ut harum id?</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-full mt-6 p-6 rounded-lg border-2 border-zinc-500">
+                        <div class="w-full flex items-center relative">
+                                <p class="w-[97%]">Apa saja syarat yang dibutuhkan?</p>
+                                <div class="w-[18px]">
+                                    <button id="bt-3" onclick="getId(this.id)" class="w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                                    </button>
+                                </div>
+                                <!-- <p class="w-1/12 font-bold text-2xl text-center absolute right-3">-</p> -->
+                        </div>
+                        <div id="q-3" class="pt-3 leading-relaxed text-zinc-600 hidden -translate-y-[100%] transition ease-in-out duration-500">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis eveniet perferendis porro laboriosam eligendi corporis, consequatur veniam itaque, fugit eum aliquam quasi libero asperiores aperiam aliquid, ut harum id?</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-full mt-6 p-6 rounded-lg border-2 border-zinc-500">
+                        <div class="w-full flex items-center relative">
+                                <p class="w-[97%]">Apa saja syarat yang dibutuhkan?</p>
+                                <div class="w-[18px]">
+                                    <button id="bt-4" onclick="getId(this.id)" class="w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                                    </button>
+                                </div>
+                                <!-- <p class="w-1/12 font-bold text-2xl text-center absolute right-3">-</p> -->
+                        </div>
+                        <div id="q-4" class="pt-3 leading-relaxed text-zinc-600 hidden -translate-y-[100%] transition ease-in-out duration-500">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis eveniet perferendis porro laboriosam eligendi corporis, consequatur veniam itaque, fugit eum aliquam quasi libero asperiores aperiam aliquid, ut harum id?</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap w-full mt-6 p-6 rounded-lg border-2 border-zinc-500">
+                        <div class="w-full flex items-center relative">
+                                <p class="w-[97%]">Apa saja syarat yang dibutuhkan?</p>
+                                <div class="w-[18px]">
+                                    <button id="bt-5" onclick="getId(this.id)" class="w-full">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+                                    </button>
+                                </div>
+                                <!-- <p class="w-1/12 font-bold text-2xl text-center absolute right-3">-</p> -->
+                        </div>
+                        <div id="q-5" class="pt-3 leading-relaxed text-zinc-600 hidden -translate-y-[100%] transition ease-in-out duration-500">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt perspiciatis eveniet perferendis porro laboriosam eligendi corporis, consequatur veniam itaque, fugit eum aliquam quasi libero asperiores aperiam aliquid, ut harum id?</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- FAQ Section End -->
-    <section></section>
+
+    <!-- Footer Start -->
+    <footer class="pt-16 pb-20">
+        <div class="container px-6">
+            <div class="flex flex-wrap justify-center">
+                <div class="w-full lg:w-1/4 flex justify-center">
+                    <div class="w-full grid grid-rows-3 py-2 lg:px-7justify-center items-center">
+                        <p class="text-lg">Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+                        <p class="text-lg">binarcarrental@gmail.com</p>
+                        <p class="text-lg">081-233-334-808</p>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/4 flex justify-center">
+                    <div class="w-full grid gap-2 grid-rows-4 py-2 lg:px-7 lg:justify-center">
+                        <a href="#services" class="font-semibold text-lg">Our Services</a>
+                        <a href="#whyus" class="font-semibold text-lg">Why Us</a>
+                        <a href="#testimonials" class="font-semibold text-lg">Testimonial</a>
+                        <a href="#faq" class="font-semibold text-lg">FAQ</a>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/4 flex lg:justify-center">
+                    <div class="flex flex-wrap py-2 lg:h-0 lg:px-7 lg:justify-center">
+                        <p class="text-lg w-full pb-2">Connect with us</p>
+                        <div class="flex items-center w-full pt-2">
+                            <img src="assets/icon_facebook.svg" class="pr-3" alt="facebook">
+                            <img src="assets/icon_facebook.svg" class="pr-3" alt="facebook">
+                            <img src="assets/icon_facebook.svg" class="pr-3" alt="facebook">
+                            <img src="assets/icon_facebook.svg" class="pr-3" alt="facebook">
+                            <img src="assets/icon_facebook.svg" class="pr-3" alt="facebook">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full grid grid-rows-2 py-2 lg:w-1/4 lg:h-28 lg:justify-center">
+                    <p class="text-lg">Copyright Binar 2022</p>
+                    <a href="#home" class="w-20 h-8 block bg-blue-900"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
     <script src="script.js"></script>
     <script src="owl_carousel/js/jquery.js"></script>
     <script src="owl_carousel/dist/owl.carousel.min.js"></script>
