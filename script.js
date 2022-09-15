@@ -21,13 +21,17 @@ const navMenu = document.querySelector('#nav-menu');
 
 const rightSide = document.querySelector('#right-side')
 
+const moveRight = '-right-[500px]'
+
 hamburger.addEventListener('click', () => {
-    navMenu.classList.remove('hidden');
+    navMenu.classList.remove(moveRight);
+    navMenu.classList.add('right-0');
     rightSide.classList.remove('hidden');
 })
 
 close.addEventListener('click', () => {
-    navMenu.classList.add('hidden');
+    navMenu.classList.remove('right-0');
+    navMenu.classList.add(moveRight);
     rightSide.classList.add('hidden');
 })
 
