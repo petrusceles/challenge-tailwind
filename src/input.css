@@ -11,3 +11,21 @@
     /* backdrop-filter: blur(5px); */
     box-shadow: inset 0 -1px 0 0 rgb(0,0,0,0.1);
 }
+
+:target:before {
+    content: "";
+    display: block;
+    height: 120px;
+    margin: -120px 0 0;
+}
+
+.section {
+    /* overflow:hidden; */
+    /* transition:max-height 0.5s ease-in-out;  */
+    /* height:auto; */
+    max-height:0; 
+  }
+.section.collapsed {
+    max-height:600px;
+}
+  

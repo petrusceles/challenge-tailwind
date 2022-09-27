@@ -24,14 +24,12 @@ const rightSide = document.querySelector('#right-side')
 const moveRight = '-right-[500px]'
 
 hamburger.addEventListener('click', () => {
-    navMenu.classList.remove(moveRight);
-    navMenu.classList.add('right-0');
+    navMenu.classList.replace(moveRight, 'right-0');
     rightSide.classList.remove('hidden');
 })
 
 close.addEventListener('click', () => {
-    navMenu.classList.remove('right-0');
-    navMenu.classList.add(moveRight);
+    navMenu.classList.replace('right-0',moveRight);
     rightSide.classList.add('hidden');
 })
 
@@ -41,9 +39,9 @@ const getId = (clickedId) => {
     const idNumbers = clickedId.match(/(\d+)/)[0]
     const qId = "#q-" + idNumbers;
     const questionBox = document.querySelector(qId);
-    questionBox.classList.toggle('hidden')
-    questionBox.classList.toggle('translate-y-[0%]')
-    questionBox.classList.toggle('-translate-y-[100%]')
+    questionBox.classList.toggle('collapsed')
+    // questionBox.classList.toggle('translate-y-[0%]')
+    // questionBox.classList.toggle('-translate-y-[100%]')
 }
 
 
