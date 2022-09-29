@@ -40,8 +40,6 @@ const getId = (clickedId) => {
     const qId = "#q-" + idNumbers;
     const questionBox = document.querySelector(qId);
     questionBox.classList.toggle('collapsed')
-    // questionBox.classList.toggle('translate-y-[0%]')
-    // questionBox.classList.toggle('-translate-y-[100%]')
 }
 
 

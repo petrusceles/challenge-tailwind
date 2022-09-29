@@ -20,12 +20,10 @@
 }
 
 .section {
-    /* overflow:hidden; */
-    /* transition:max-height 0.5s ease-in-out;  */
-    /* height:auto; */
     max-height:0; 
   }
 .section.collapsed {
     max-height:600px;
 }
+
   

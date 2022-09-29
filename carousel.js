@@ -6,7 +6,7 @@ $(".owl-carousel").owlCarousel({
     autoplayhoverpause: true,
     autoplaytimeout: 100,
     items:1,
-    nav: false,
+    nav: true,
     loop: true,
     lazyLoad: true,
     margin: 5,
@@ -22,5 +22,9 @@ $(".owl-carousel").owlCarousel({
         1280 :{
             items: 3
         }
-    }
+    },
+    navText:[
+        "<p class='text-center align-middle font-bold text-2xl py-3 px-2 rounded-3xl'><</p>","<p class='font-bold text-2xl py-3 px-2 rounded-3xl'>></p>"
+    ],
+    dots:false
 });
